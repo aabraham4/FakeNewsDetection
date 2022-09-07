@@ -21,7 +21,7 @@ class FakeNewsFunctions:
 
         return new_text
 
-    # function to lemmatize each word in text afterr converting to tokens and return as text
+    # function to lemmatize each word in text after converting to tokens and return as text
     def lemmatize_text(self, text):
         new_text = []
 
@@ -44,7 +44,7 @@ class FakeNewsFunctions:
             new_text.append(joined_text)
         return new_text
 
-    # function to stem each word in text afterr converting to tokens and return as text
+    # function to stem each word in text after converting to tokens and return as text
     def stem_text(self, text):
         new_text = []
 

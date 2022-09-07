@@ -11,7 +11,7 @@ from sklearn.tree import DecisionTreeClassifier
 from FakeNewsFunctions import FakeNewsFunctions
 
 # dataset used: LIAR Dataset
-# dataset source: https://metatext.io/datasets/liar-dataset
+# dataset source: https://paperswithcode.com/dataset/liar
 # dataset info source: https://paperswithcode.com/dataset/liar#:~:text=LIAR%20is%20a%20publicly%20available,fact%2Dchecking%20research%20as%20well.
 # import the train and test data file from LIAR dataset
 train_data = pandas.read_csv('train.tsv', sep='\t', header=None)
